@@ -4,7 +4,7 @@ $(document).ready(function(){
 		e.preventDefault();
 
 		//Grab the note
-		if ($.trim ($('#note').val()) == '' ) {
+		if ($.trim($('#note').val()) == '' ) {
 			return;
 	}
 
